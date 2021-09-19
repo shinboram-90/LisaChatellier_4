@@ -1,0 +1,53 @@
+<form
+  id="form_1"
+  novalidate
+  success-msg="Your message has been sent."
+  fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!"
+>
+  <div class="form-group">
+    <label>
+      Nom
+      <input id="name" class="form-control" required />
+    </label>
+  </div>
+  <div class="form-group row">
+    <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+    <div class="col-sm-10">
+      <input
+        type="email"
+        readonly
+        class="form-control-plaintext"
+        id="staticEmail"
+        value="email@example.com"
+      />
+    </div>
+  </div>
+  <div class="form-group">
+    <label>
+      Comment nous avez-vous connu ?
+      <input class="form-control" type="email" required id="input_504" />
+    </label>
+  </div>
+  <div class="form-group">
+    <label> Brief de votre projet</label>
+    <textarea
+      placeholder="Ajoutez autant de détails que
+                      nécessaire"
+      id="message"
+      class="form-control"
+      rows="4"
+      cols="50"
+      required
+    ></textarea>
+  </div>
+  <input
+    type="submit"
+    class="
+      bloc-button
+      btn btn-lg btn-block
+      cta-hero
+      btn-atomic-tangerine btn-rd
+    "
+    value="Envoyer"
+  />
+</form>
