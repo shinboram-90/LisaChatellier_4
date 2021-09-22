@@ -746,6 +746,7 @@ h4 {
 
 .portfolio-thumb {
   margin-bottom: 24px;
+  margin: 0 auto;
 }
 
 .portfolio-row {
@@ -1055,4 +1056,8 @@ h4 {
 /* MY CHANGES */
 li {
   list-style: none;
+}
+
+.social > .fa {
+  font-size: 4rem !important;
 }
