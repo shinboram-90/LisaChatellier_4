@@ -1084,3 +1084,9 @@ address li {
   font-size: 1.7rem;
   line-height: 2;
 }
+
+#bloc-6 {
+  z-index: 0;
+  padding: 3rem 0;
+  background-color: #f3976c;
+}
