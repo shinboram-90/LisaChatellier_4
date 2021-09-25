@@ -67,7 +67,7 @@ a:hover {
   right: 0;
 }
 .texture-paper::before {
-  background: url(img/texture-paper.png);
+  background: url(img/texture-paper.webp);
   background-size: 280px 280px;
   z-index: -1;
 }
@@ -576,7 +576,7 @@ h4 {
   background-image: url(img/lines-h2-bg.png);
 }
 .bg-banniere {
-  background-image: url(img/chouette.jpg);
+  background-image: url(img/chouette.webp);
   z-index: 0;
 }
 .bg-presentation {
@@ -818,11 +818,12 @@ address li {
   padding: 3rem 0;
   background-color: #f3976c;
 }
-
 .adjust-padding {
   padding: 20px !important;
 }
-
 ul {
   padding: 0;
+}
+.lightbox-caption {
+  text-align: center;
 }
