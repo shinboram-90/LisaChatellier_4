@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" xmlns:og="http://ogp.me/ns#">
   <head>
     <meta charset="utf-8" />
     <meta
@@ -20,6 +20,20 @@
     <link rel="stylesheet" type="text/css" href="./css/font-awesome.css" />
     <link rel="stylesheet" type="text/css" href="./css/et-line.css" />
     <title>La Chouette Agence</title>
+
+    <meta property="og:title" content="La Chouette Agence" />
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://shinboram-90.github.io/LisaChatellier_4/"
+    />
+    <meta property="og:image" content="img/facebook.png" />
+    <meta
+      property="og:description"
+      content="La chouette agence est une agence de web qui aide les entreprises à devenir attractives et visibles sur Internet"
+    />
+    <meta property="twitter:image" content="img/twitter.webp" />
+    <meta name="twitter:site" content="@lachouetteagence" />
   </head>
   <body>
     <div class="page-container">
@@ -29,9 +43,10 @@
             <div class="navbar-header">
               <a class="navbar-brand" href="index.html"
                 ><img
-                  src="img/la-chouette-agence.png"
+                  src="img/la-chouette-agence.webp"
                   alt="logo de l'agence représentant une chouette avec à sa droite le nom de l'agence"
-                  height="40" /></a
+                  height="40px"
+                  width="214.44px" /></a
               ><button
                 id="nav-toggle"
                 type="button"
@@ -70,9 +85,10 @@
             <div class="row tight-width-whitespace">
               <div class="col-sm-12">
                 <img
-                  src="img/logo.png"
+                  src="img/logo.webp"
                   class="center-block image-resize-mode"
-                  width="100"
+                  height="100px"
+                  width="100px"
                   alt="logo représentant une chouette de l'agence web La chouette agence"
                 />
                 <h1 class="text-center hero-bloc-text tc-white">
@@ -107,18 +123,20 @@
             </article>
             <div class="row voffset-lg med-width-whitespace">
               <article class="col-sm-4">
-                <div class="text-center">
-                  <span
-                    class="
-                      et-icon-browser
-                      sm-shadow
-                      icon-dark-slate-blue
-                      icons
-                      icon-lg
-                    "
-                  ></span>
-                </div>
-                <h2 class="mg-md text-center">Web design</h2>
+                <header>
+                  <div class="text-center">
+                    <span
+                      class="
+                        et-icon-browser
+                        sm-shadow
+                        icon-dark-slate-blue
+                        icons
+                        icon-lg
+                      "
+                    ></span>
+                  </div>
+                  <h2 class="mg-md text-center">Web design</h2>
+                </header>
                 <p class="text-center">
                   Que vous ayez un site web qui a besoin d&rsquo;un
                   rafraîchissement ou que vous partiez de zéro, laissez-nous
@@ -126,18 +144,20 @@
                 </p>
               </article>
               <article class="col-sm-4">
-                <div class="text-center">
-                  <span
-                    class="
-                      et-icon-presentation
-                      sm-shadow
-                      icon-dark-slate-blue
-                      icons
-                      icon-lg
-                    "
-                  ></span>
-                </div>
-                <h2 class="mg-md text-center">&nbsp;Stratégie</h2>
+                <header>
+                  <div class="text-center">
+                    <span
+                      class="
+                        et-icon-presentation
+                        sm-shadow
+                        icon-dark-slate-blue
+                        icons
+                        icon-lg
+                      "
+                    ></span>
+                  </div>
+                  <h2 class="mg-md text-center">&nbsp;Stratégie</h2>
+                </header>
                 <p class="text-center">
                   Plutôt que de suggérer des designs à la mode, nous
                   travaillerons avec vous pour comprendre vos objectifs
@@ -145,18 +165,20 @@
                 </p>
               </article>
               <article class="col-sm-4">
-                <div class="text-center">
-                  <span
-                    class="
-                      et-icon-edit
-                      sm-shadow
-                      icon-dark-slate-blue
-                      icons
-                      icon-lg
-                    "
-                  ></span>
-                </div>
-                <h2 class="mg-md text-center">Illustrations</h2>
+                <header>
+                  <div class="text-center">
+                    <span
+                      class="
+                        et-icon-edit
+                        sm-shadow
+                        icon-dark-slate-blue
+                        icons
+                        icon-lg
+                      "
+                    ></span>
+                  </div>
+                  <h2 class="mg-md text-center">Illustrations</h2>
+                </header>
                 <p class="text-center">
                   Un bon design n'est rien sans de bonnes illustrations. Laissez
                   faire notre équipe de graphistes talentueux pour donner à vos
@@ -165,19 +187,19 @@
               </article>
             </div>
             <figure class="row voffset-lg voffset">
-              <blockquote
-                class="col-xs-12 col-md-8 col-md-offset-2 text-center"
-              >
-                <p>
-                  "La chouette agence est une excellente agence web ! Les web
-                  designers ont réussi à capturer l'essence de notre entreprise
-                  et à l'intégrer à notre site. Cela nous a aidé à doubler nos
-                  ventes en ligne à lyon."
-                </p>
+              <div class="col-xs-12 col-md-8 col-md-offset-2 text-center">
+                <blockquote>
+                  <p>
+                    "La chouette agence est une excellente agence web ! Les web
+                    designers ont réussi à capturer l'essence de notre
+                    entreprise et à l'intégrer à notre site. Cela nous a aidé à
+                    doubler nos ventes en ligne à lyon."
+                  </p>
+                </blockquote>
                 <figcaption>
                   Maxime Guibard, PDG de<cite>À vos fourchettes</cite>
                 </figcaption>
-              </blockquote>
+              </div>
             </figure>
           </div>
         </section>
@@ -237,6 +259,8 @@
                   data-caption="Refonte d'un site web pour un journal local"
                   data-frame="snapshot-lb"
                   ><img
+                    width="320px"
+                    height="320px"
                     src="img/1.webp"
                     alt="magazines ouverts et empilés les uns sur les autres de sorte à apparaître leur contenu très coloré"
                     class="img-responsive portfolio-thumb"
@@ -257,6 +281,8 @@
                   data-caption="Création d'un site web pour photographes"
                   data-frame="snapshot-lb"
                   ><img
+                    width="320px"
+                    height="320px"
                     src="img/2.webp"
                     class="img-responsive portfolio-thumb"
                     alt="femme de profil portant une capuche et prenant une photo à l'aide d'un appareil photo sur un trépied"
@@ -279,6 +305,8 @@
                   data-caption="Création d'un site internet pour un voyageur"
                   data-frame="snapshot-lb"
                   ><img
+                    width="320px"
+                    height="320px"
                     src="img/3.webp"
                     class="img-responsive portfolio-thumb"
                     alt="vue de dessus de différents appareils multimedias placés les uns à côté des autres"
@@ -299,6 +327,8 @@
                   data-caption="Conception d'un site pour une agence de mariage"
                   data-frame="snapshot-lb"
                   ><img
+                    width="320px"
+                    height="320px"
                     src="img/4.webp"
                     class="img-responsive portfolio-thumb"
                     alt="vue de dessus d'un ordinateur portable et divers objets pour donner un côté créatif"
