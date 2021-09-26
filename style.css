@@ -486,7 +486,7 @@ p {
   margin: auto auto auto auto;
 }
 h3 {
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   line-height: 1.4em;
   font-weight: 700;
   text-transform: uppercase;
@@ -832,6 +832,9 @@ ul {
 }
 
 figcaption {
-  font-size: 1.65rem;
-  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.p-customers {
+  font-size: 2.2rem;
 }
