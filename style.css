@@ -289,6 +289,7 @@ button {
 }
 .icon-md {
   font-size: 30px !important;
+  padding: 1rem;
 }
 .icon-lg {
   font-size: 60px !important;
