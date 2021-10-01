@@ -450,6 +450,7 @@ p {
 }
 .hero-bloc-text {
   padding-bottom: 1rem;
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.6);
 }
 .hero-bloc-text-sub {
   font-size: 2.25rem;
@@ -507,6 +508,7 @@ h1 {
 }
 h4 {
   font-size: 2.2rem;
+  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.6);
 }
 .icons {
   margin-bottom: 14px;
@@ -527,7 +529,7 @@ h4 {
   box-shadow: 0 4px 9px rgba(0, 0, 0, 0.3);
 }
 .black-background {
-  background-color: rgba(83, 75, 50, 0.8);
+  background-color: rgba(96, 92, 72, 0.8);
   padding: 40px 20px;
 }
 .bold-link {
