@@ -507,7 +507,6 @@ h1 {
 }
 h4 {
   font-size: 2.2rem;
-  text-shadow: 0 2px 1px rgba(0, 0, 0, 0.6);
 }
 .icons {
   margin-bottom: 14px;
@@ -528,16 +527,16 @@ h4 {
   box-shadow: 0 4px 9px rgba(0, 0, 0, 0.3);
 }
 .black-background {
-  background-color: rgba(83, 75, 50, 0.9);
+  background-color: #5b5540;
   padding: 40px 20px;
 }
 .bold-link {
   font-weight: 900;
   text-decoration: underline !important;
 }
-.bgc-white {
+/* .bgc-white {
   background-color: #fff;
-}
+} */
 .bgc-atomic-tangerine {
   background-color: #f5a884;
 }
